@@ -585,7 +585,7 @@ body {
 }
 /*====================== /PORTFOLIO =================*/
 
-/* ===================== BACKDROP ====================*/
+/* ===================== BACKDROP MODAL ====================*/
 
 .backdrop {
   position: fixed;
@@ -603,6 +603,7 @@ body {
 .modal {
   width: 408px;
   min-height: 584px;
+  padding: 72px 24px 24px;
   background-color: #fcfcfc;
   border-radius: 4px;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
@@ -652,4 +653,51 @@ body {
   pointer-events: none;
 }
 
-/* ===================== /BACKDROP ====================*/
+.modal-contact-form {
+}
+.contact-form-field-wrapper {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.contact-form-field-desc {
+  display: block;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.16;
+  letter-spacing: 0.01em;
+  color: #8e8f99;
+  margin-bottom: 4px;
+}
+
+.contact-form-input {
+  width: 100%;
+  height: 40px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 4px;
+  padding-left: 38px;
+}
+
+.comment-form-field-wrapper {
+  display: block;
+  margin-bottom: 16px;
+}
+
+.contact-form-message {
+  width: 100%;
+  height: 120px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 4px;
+  padding-left: 16px;
+}
+.contact-form-checkbox-wrapper {
+}
+.contact-form-checkbox {
+}
+.privacy-policy {
+  color: #4d5ae5;
+}
+.contact-form-send {
+}
+
+/* ===================== /BACKDROP MODAL ====================*/
