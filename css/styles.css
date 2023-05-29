@@ -601,6 +601,12 @@ body {
     visibility var(--transition-duration-and-func);
 }
 
+.is-hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
 .modal {
   width: 408px;
   min-height: 584px;
@@ -643,17 +649,6 @@ body {
   transition: fill var(--transition-duration-and-func);
 }
 
-.modal-close-button:hover .modal-close-icon,
-.modal-close-button:focus .modal-close-icon {
-  fill: #ffffff;
-}
-
-.is-hidden {
-  opacity: 0;
-  visibility: hidden;
-  pointer-events: none;
-}
-
 .contact-form-title {
   margin-bottom: 16px;
   text-align: center;
@@ -663,6 +658,11 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+}
+
+.modal-close-button:hover .modal-close-icon,
+.modal-close-button:focus .modal-close-icon {
+  fill: #ffffff;
 }
 
 .contact-form-field-wrapper {
