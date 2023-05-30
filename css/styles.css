@@ -712,9 +712,18 @@ body {
   transition: fill var(--transition-duration-and-func);
 }
 
+.comment-form-field-wrap {
+  margin-bottom: 16px;
+}
+
 .comment-form-field-wrapper {
   display: block;
-  margin-bottom: 16px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: #8e8f99;
+  margin-bottom: 4px;
 }
 
 .contact-form-message {
@@ -722,10 +731,15 @@ body {
   height: 120px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
-  padding-left: 16px;
-  padding-top: 8px;
+  padding: 8px 16px;
   resize: none;
   transition: border-color var(--transition-duration-and-func);
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: rgba(46, 47, 66, 0.4);
+  background-color: transparent;
+  outline: transparent;
 }
 
 .contact-form-message::placeholder {
