@@ -671,23 +671,12 @@ body {
 
 .contact-form-field-wrapper {
   display: block;
-  /* margin-bottom: 8px; */
   font-weight: 400;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
   margin-bottom: 4px;
-}
-
-.contact-form-field-desc {
-  /* display: block;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 1.17;
-  letter-spacing: 0.04em;
-  color: #8e8f99;
-  margin-bottom: 4px; */
 }
 
 .contact-form-input-wrapper {
