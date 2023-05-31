@@ -745,6 +745,10 @@ body {
   border-color: #4d5ae5;
 }
 
+.contact-form-checkbox-wrap {
+  margin-bottom: 24px;
+}
+
 .contact-form-checkbox-wrapper {
   display: flex;
   align-items: center;
@@ -755,9 +759,35 @@ body {
   color: #8e8f99;
 }
 
+.contact-form-own-checkbox-wrap {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  fill: transparent;
+  width: 16px;
+  height: 16px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 2px;
+  transition: background-color var(--transition-duration-and-func),
+    border var(--transition-duration-and-func), fill var(--transition-duration-and-func);
+}
+
 .contact-form-checkbox {
-  appearance: none;
+  /* appearance: none; */
   position: absolute;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .contact-form-checkbox:focus + .contact-form-own-checkbox {
@@ -767,28 +797,29 @@ body {
 .contact-form-own-checkbox {
   width: 16px;
   height: 16px;
-  border: 1px solid rgba(46, 47, 66, 0.4);
-  border-radius: 2px;
+  /* border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 2px; */
   padding: 4px 3px;
   cursor: pointer;
   margin-right: 8px;
 }
 
-.contact-form-checkmark-icon {
+/* .contact-form-checkmark-icon {
   opacity: 0;
-}
+} */
 
-.contact-form-checkbox:checked + .contact-form-own-checkbox {
+.contact-form-checkbox:checked + .contact-form-checkbox-wrapper > .contact-form-own-checkbox-wrap {
   background-color: #404bbf;
+  border: none;
+  fill: #ffffff;
 }
 
-.contact-form-checkbox:checked + .contact-form-own-checkbox > .contact-form-checkmark-icon {
+/* .contact-form-checkbox:checked + .contact-form-own-checkbox > .contact-form-checkmark-icon {
   opacity: 1;
-}
+} */
 
 .privacy-policy {
   color: #4d5ae5;
-  margin-left: 2px;
 }
 .contact-form-send {
   display: block;
@@ -800,7 +831,6 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 24px;
   padding: 16px 32px;
   min-width: 169px;
   min-height: 56px;
