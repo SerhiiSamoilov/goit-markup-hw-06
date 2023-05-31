@@ -750,8 +750,8 @@ body {
 }
 
 .contact-form-checkbox-wrapper {
-  display: flex;
-  align-items: center;
+  /* display: flex;
+  align-items: center; */
   font-weight: 400;
   font-size: 12px;
   line-height: 1.17;
@@ -774,7 +774,6 @@ body {
 }
 
 .contact-form-checkbox {
-  /* appearance: none; */
   position: absolute;
 }
 
@@ -820,6 +819,7 @@ body {
 
 .privacy-policy {
   color: #4d5ae5;
+  margin-left: 2px;
 }
 .contact-form-send {
   display: block;
