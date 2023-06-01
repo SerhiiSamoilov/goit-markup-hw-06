@@ -412,7 +412,7 @@ body {
 
 /*================ /CUSTOMERS =============== */
 
-/*====================== footer ================*/
+/*====================== FOOTER ================*/
 
 .footer {
   background-color: #2e2f42;
@@ -447,6 +447,11 @@ body {
   color: #ffffff;
   margin-bottom: 16px;
 }
+
+.footer-block-two {
+  margin-right: 80px;
+}
+
 .footer-social-list {
   display: flex;
   gap: 16px;
@@ -472,7 +477,67 @@ body {
   fill: var(--footer-social-list-icon-color);
 }
 
-/*====================== /footer ================*/
+.footer-block-three {
+}
+
+.footer-contact-form-wrap {
+  display: flex;
+}
+
+.footer-contact-form {
+}
+
+.footer-form-field-wrap {
+}
+
+.footer-form-field-wrapper {
+}
+
+.footer-form-input {
+  margin-right: 24px;
+
+  width: 264px;
+  height: 40px;
+
+  padding-left: 16px;
+  background-color: transparent;
+  /* outline: transparent; */
+  border: 1px solid #ffffff;
+  /* filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15)); */
+  border-radius: 4px;
+
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+}
+
+.footer-form-input::placeholder {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+}
+
+.footer-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  background: #4d5ae5;
+  border-radius: 4px;
+  gap: 16px;
+  padding: 8px 24px;
+  border: none;
+}
+
+/*====================== /FOOTER ================*/
 
 /*====================== PORTFOLIO =================*/
 
@@ -750,8 +815,7 @@ body {
 }
 
 .contact-form-checkbox-wrapper {
-  /* display: flex; */
-  /* align-items: center; */
+  display: inline-flex;
   font-weight: 400;
   font-size: 12px;
   line-height: 1.17;
