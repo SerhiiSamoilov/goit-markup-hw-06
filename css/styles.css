@@ -518,7 +518,6 @@ body {
   color: #ffffff;
   background: #4d5ae5;
   border-radius: 4px;
-  /* gap: 16px; */
   padding: 8px 24px;
   border: none;
   cursor: pointer;
@@ -852,25 +851,15 @@ body {
 .contact-form-own-checkbox {
   width: 16px;
   height: 16px;
-  /* border: 1px solid rgba(46, 47, 66, 0.4);
-  border-radius: 2px; */
   padding: 4px 3px;
   cursor: pointer;
 }
-
-/* .contact-form-checkmark-icon {
-  opacity: 0;
-} */
 
 .contact-form-checkbox:checked + .contact-form-checkbox-wrapper > .contact-form-own-checkbox-wrap {
   background-color: #404bbf;
   border: none;
   fill: #ffffff;
 }
-
-/* .contact-form-checkbox:checked + .contact-form-own-checkbox > .contact-form-checkmark-icon {
-  opacity: 1;
-} */
 
 .privacy-policy {
   color: #4d5ae5;
