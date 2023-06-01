@@ -477,38 +477,23 @@ body {
   fill: var(--footer-social-list-icon-color);
 }
 
-.footer-block-three {
-}
-
-.footer-contact-form-wrap {
-  display: flex;
-}
-
 .footer-contact-form {
-}
-
-.footer-form-field-wrap {
-}
-
-.footer-form-field-wrapper {
+  display: flex;
+  gap: 24px;
 }
 
 .footer-form-input {
-  margin-right: 24px;
-
   width: 264px;
   height: 40px;
-
   padding-left: 16px;
   background-color: transparent;
   /* outline: transparent; */
   border: 1px solid #ffffff;
-  /* filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15)); */
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
-
   font-weight: 400;
   font-size: 12px;
-  line-height: 2;
+  line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
 }
@@ -522,6 +507,8 @@ body {
 }
 
 .footer-btn {
+  min-width: 165px;
+  height: 40px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -532,9 +519,14 @@ body {
   color: #ffffff;
   background: #4d5ae5;
   border-radius: 4px;
-  gap: 16px;
+  /* gap: 16px; */
   padding: 8px 24px;
   border: none;
+  cursor: pointer;
+}
+
+.footer-btn-icon {
+  margin-left: 16px;
 }
 
 /*====================== /FOOTER ================*/
